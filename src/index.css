@@ -1,0 +1,16 @@
+
+
+
+@import url(https://db.onlinewebfonts.com/c/7dad6da76876654292debb06343b81fe?family=HvDTrial+Brandon+Grotesque+Cond);
+
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    font-family: "HvDTrial Brandon Grotesque Cond", sans-serif;
+  }
+}
