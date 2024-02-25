@@ -3,7 +3,7 @@ import logoSmallImage from '../assets/logoSmallImage.svg'
 
 function LogoDesign() {
   return (
-    <div className='min-h-[650px] max-w-[1440px] mx-auto h-full px-4 py-14 md:py-28 md:pl-14 flex items-center'>
+    <div id='logoDesign' className='min-h-[650px] max-w-[1440px] mx-auto h-full px-4 py-14 md:py-28 md:pl-14 flex items-center'>
       <div className='flex flex-col md:flex-row gap-y-3 md:gap-x-4 items-center justify-center h-full'>
         <div className='flex-1'>
           <div className='flex gap-x-4 items-center'>

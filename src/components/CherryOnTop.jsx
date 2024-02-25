@@ -3,7 +3,7 @@ import cherrOnTopImage2 from '../assets/cherryOnTopImage2.svg'
 
 function CherryOnTop() {
   return (
-    <div className='bg-[#F0F0F0]'>
+    <div className='bg-[#F0F0F0]' id='cherrOnTop'>
       <div className='min-h-[650px] max-w-[1440px] mx-auto h-full px-4 py-14 md:py-28 md:pl-14 flex items-center justify-center'>
         <div>
           <div className='flex items-center justify-center gap-x-3 md:gap-x-64 text-center'>

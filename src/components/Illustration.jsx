@@ -2,7 +2,7 @@ import illustration from '../assets/illustration.svg'
 
 function Illustration() {
   return (
-    <div className='min-h-[650px] max-w-[1440px] mx-auto h-full px-4 py-14 md:py-28 md:pl-14 flex items-center'>
+    <div className='min-h-[650px] max-w-[1440px] mx-auto h-full px-4 py-14 md:py-28 md:pl-14 flex items-center' id='illustration'>
       <div className='flex flex-col md:flex-row gap-y-3 md:gap-x-4 items-center justify-center h-full'>
         <div className='flex-1'>
           <h1 className='text-4xl font-extrabold uppercase'>

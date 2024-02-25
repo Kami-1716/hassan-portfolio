@@ -16,7 +16,7 @@ function Footer() {
           <p>
             hassanswork2@gmail.com
           </p>
-          <p>Go Back Home</p>
+          <a href='#header'>Go Back Home</a>
         </div>
 
       </div>

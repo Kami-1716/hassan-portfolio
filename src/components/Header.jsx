@@ -6,6 +6,7 @@ import Illustration from './Illustration';
 import LogoDesign from './LogoDesign';
 import CherryOnTop from './CherryOnTop';
 import Footer from './Footer';
+import UiDesign from './UiDesign';
 
 const Header = () => {
   const divStyle = {
@@ -15,21 +16,21 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div id='header'>
       <div style={divStyle} className='min-h-[650px]'>
         <header className="header">
           <ul className='text-white flex flex-wrap justify-center gap-x-8 pt-16 whitespace-nowrap tracking-widest'>
             <li>
-              <a href="#home" className='hover:underline'>Logo Design</a>
+              <a href="#logoDesign" className='hover:underline'>Logo Design</a>
             </li>
             <li>
-              <a href="#about" className='hover:underline'>Ui/Ux Design</a>
+              <a href="#uiDesign" className='hover:underline'>Ui/Ux Design</a>
             </li>
             <li>
-              <a href="#services" className='hover:underline'>Illustrations</a>
+              <a href="#illustration" className='hover:underline'>Illustrations</a>
             </li>
             <li>
-              <a href="#contact" className='hover:underline'>Cherry On Top</a>
+              <a href="#cherrOnTop" className='hover:underline'>Cherry On Top</a>
             </li>
           </ul>
         </header>
@@ -52,6 +53,7 @@ const Header = () => {
         </div>
       </div>
       <Illustration />
+      <UiDesign />
       <LogoDesign />
       <CherryOnTop />
       <Footer />
